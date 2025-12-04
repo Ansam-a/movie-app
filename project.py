@@ -7,6 +7,22 @@ st.set_page_config(page_title="Netflix Checker", page_icon="🍿")
 # --- My TMDB API Key ---
 API_KEY = 'ab17ef0fe9d890c12fd097edf141a085'
 
+# --- Course & Student Info ---
+with st.sidebar:
+    st.header("Project Details")
+    st.markdown("**Mathematical Programming Course**")
+    st.markdown("**Supervised by:**")
+    st.markdown("Dr. Reem Algethamie")
+    
+    st.markdown("---")
+    st.markdown("**Students:**")
+    st.markdown("- Ansam") 
+    st.markdown("- Asrar")
+    st.markdown("- Lama")
+    st.markdown("- Wasan")
+    st.markdown("- Saja")
+    
+
 # --- Local Movie List (Simulating Netflix Database) ---
 movies_list = [
     "Stranger Things", "The Witcher", "Squid Game", "The Queen's Gambit",
